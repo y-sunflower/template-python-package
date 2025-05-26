@@ -65,7 +65,7 @@ git clone https://github.com/your_name/package_name.git
 ``` bash
 uv sync --all-extras --dev
 uv pip install -e .
-uv run pre commit install
+uv run pre-commit install
 ```
 
 ### Run tests
