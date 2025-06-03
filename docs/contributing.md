@@ -6,7 +6,7 @@ Any kind of contribution is more than welcomed! There are several ways you can c
 
 ## How `package_name` works
 
-Here how it wokrs
+Here how it works
 
 ## Setting up your environment
 
