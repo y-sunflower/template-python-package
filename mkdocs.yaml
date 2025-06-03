@@ -4,6 +4,7 @@ repo_url: https://github.com/your_name/package_name
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - content.code.copy
     - navigation.path

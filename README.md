@@ -91,6 +91,23 @@ You only have to set up [GitHub Pages](https://pages.github.com/)
 uv run mkdocs serve
 ```
 
+- Footer of the site:
+
+The footer of the documentation website is defined in
+`overrides/partials/footer.html`. If you don’t know HTML/CSS, chatGPT
+can help you here!
+
+- Change main color:
+
+In `docs/stylesheets/style.css`, change the color value to change the
+overall style of site:
+
+``` css
+:root {
+  --primary-color: #0096c7;
+}
+```
+
 ### Make a new PyPI release
 
 New PyPI releases are made via 2 scripts:
