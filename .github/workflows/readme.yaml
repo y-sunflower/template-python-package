@@ -30,7 +30,9 @@ jobs:
           enable-cache: true
 
       - name: Install the project
-        run: uv sync --all-groups
+        run: |
+          uv sync --all-groups
+          source .venv/bin/activate
 
       - name: Render README.qmd
         run: quarto render README.qmd
