@@ -41,6 +41,7 @@ quarto = [
     "jupyter>=1.1.1",
     "nbclient>=0.10.2",
     "nbformat>=5.10.4",
+    "pyyaml>=6.0.2",
 ]
 
 [project.urls]
