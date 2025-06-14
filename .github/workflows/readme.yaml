@@ -35,7 +35,9 @@ jobs:
           source .venv/bin/activate
 
       - name: Render README.qmd
-        run: quarto render README.qmd
+        run: |
+          uv pip install nbformat nbclient jupyter
+          quarto render README.qmd
 
       - name: Commit changes (only on push)
         if: github.event_name == 'push'
