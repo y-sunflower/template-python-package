@@ -30,7 +30,7 @@ jobs:
           enable-cache: true
 
       - name: Install the project
-        run: uv sync --all-extras --dev
+        run: uv sync --all-groups
 
       - name: Render README.qmd
         run: quarto render README.qmd
