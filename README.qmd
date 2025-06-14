@@ -43,7 +43,7 @@ root/
 ├── LICENSE                   - License file
 ├── .gitignore                - Git ignore rules
 ├── .pre-commit-config.yaml   - Pre commit hooks
-└── mkdocs.yaml                - Make a release on PyPI
+└── mkdocs.yaml               - Documentation website configuration
 ```
 
 <br><br>
