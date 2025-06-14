@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - "README.qmd"
-      - ".github/workflows/readme.yml"
+      - ".github/workflows/readme.yaml"
   pull_request:
     paths:
       - "README.qmd"
-      - ".github/workflows/readme.yml"
+      - ".github/workflows/readme.yaml"
 
 jobs:
   readme:
