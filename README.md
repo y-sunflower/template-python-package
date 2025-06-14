@@ -108,9 +108,6 @@ overall style of site:
 }
 ```
 
-You’ll also need to change the color in the footer in
-`overrides/partials/footer.html`.
-
 ### Make a new PyPI release
 
 New PyPI releases are made via 2 scripts:
