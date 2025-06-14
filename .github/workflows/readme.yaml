@@ -32,11 +32,11 @@ jobs:
       - name: Install the project
         run: |
           uv sync --all-groups
-          source .venv/bin/activate
 
       - name: Render README.qmd
         run: |
           uv pip install nbformat nbclient jupyter
+          source .venv/bin/activate
           quarto render README.qmd
 
       - name: Commit changes (only on push)
