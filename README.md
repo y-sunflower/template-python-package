@@ -1,6 +1,5 @@
 # Python package template
 
-
 <!-- Automatically generated, uses README.qmd to modify README.md -->
 
 A python package template that contains everything you need to:
@@ -8,7 +7,7 @@ A python package template that contains everything you need to:
 - **create**
 - ~~configure~~
 - `test`
-- *document*
+- _document_
 - <u>deploy</u>
 
 <br>
@@ -51,7 +50,7 @@ A python package template that contains everything you need to:
 - Click on `Use this template` and `Create a new repository`
 - Clone your repo
 
-``` bash
+```bash
 git clone https://github.com/your_name/package_name.git
 ```
 
@@ -68,7 +67,7 @@ git clone https://github.com/your_name/package_name.git
 
 ### Install dependencies
 
-``` bash
+```bash
 uv sync --all-groups
 uv pip install -e .
 uv run pre-commit install
@@ -78,7 +77,7 @@ uv run pre-commit install
 
 ### Run tests
 
-``` bash
+```bash
 uv run pytest
 ```
 
@@ -99,7 +98,7 @@ deployment.
 
 - Preview locally:
 
-``` bash
+```bash
 uv run mkdocs serve
 ```
 
@@ -114,7 +113,7 @@ can help you here!
 In `docs/stylesheets/style.css`, change the color value to change the
 overall style of site:
 
-``` css
+```css
 :root {
   --primary-color: #0096c7;
 }
@@ -160,7 +159,7 @@ This is optional (you can use a plain `README.md` and delete
   options](https://quarto.org/docs/authoring/markdown-basics.html)
 - you can include code (for example, dynamic content)
 
-``` python
+```python
 from package_name import add_digit
 
 # The output here is not hardcoded
@@ -174,11 +173,11 @@ It works perfectly well with most IDEs. You can install Quarto
 
 To generate `README.md`, run (make sure your venv is activated):
 
-``` bash
+```bash
 quarto render docs/README.qmd --output-dir ..
 ```
 
 <br> <br>
 
 Still have some questions? Open an
-[issue](https://github.com/y-sunflower/template-python-package/issues)!
+[issue](https://github.com/y-sunflower/python-package-template/issues)!

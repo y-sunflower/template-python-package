@@ -166,4 +166,4 @@ quarto render docs/README.qmd --output-dir ..
 <br>
 <br>
 
-Still have some questions? Open an [issue](https://github.com/y-sunflower/template-python-package/issues)!
+Still have some questions? Open an [issue](https://github.com/y-sunflower/python-package-template/issues)!

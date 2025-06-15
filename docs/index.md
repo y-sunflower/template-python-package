@@ -43,7 +43,7 @@ root/
 
 ## How to use this template
 
-Go to the Github repo [here](https://github.com/y-sunflower/template-python-package).
+Go to the Github repo [here](https://github.com/y-sunflower/python-package-template).
 
 ### Create a new repo
 
@@ -168,4 +168,4 @@ quarto render docs/README.qmd --output-dir ..
 <br> <br>
 
 Still have some questions? Open an
-[issue](https://github.com/y-sunflower/template-python-package/issues)!
+[issue](https://github.com/y-sunflower/python-package-template/issues)!
