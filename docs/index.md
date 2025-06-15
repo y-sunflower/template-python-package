@@ -1,6 +1,6 @@
 # package_name
 
-My very cool package named `package_name`
+This is the website of a Python package template. You can find it [here](https://github.com/y-sunflower/template-python-package).
 
 <br>
 
