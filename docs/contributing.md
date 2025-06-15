@@ -6,7 +6,7 @@ Any kind of contribution is more than welcomed! There are several ways you can c
 
 ## How `package_name` works
 
-Here how it works
+Here's how it works:
 
 ## Setting up your environment
 
@@ -17,8 +17,9 @@ Here how it works
 - Clone your forked repository to your local machine (ensure you have [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)):
 
 ```bash
-git clone https://github.com/your_name/package_name.git
+git clone https://github.com/github_user_name/package_name.git
 cd package_name
+git remote add upstream https://github.com/your_name/package_name.git
 ```
 
 - Create a new branch:
@@ -34,7 +35,7 @@ uv sync --all-extras --dev
 uv pip install -e .
 ```
 
-### Code!
+## Code
 
 You can now make changes to the package and start coding!
 
@@ -52,7 +53,7 @@ uv run pytest
 uv run mkdocs serve
 ```
 
-### Push changes
+## Push changes
 
 - Commit and push your changes:
 
@@ -62,7 +63,7 @@ git commit -m "description of what you did"
 git push
 ```
 
-- Go back to your fork and click on the "Open a PR" popup
+- Navigate to your fork on GitHub and click the "Compare & pull request" button to open a new pull request.
 
 Congrats! Once your PR is merged, it will be part of `package_name`.
 
