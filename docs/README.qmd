@@ -133,7 +133,7 @@ New PyPI releases are made via 2 scripts:
 
 This relies on [trusted publishing](https://docs.pypi.org/trusted-publishers/), which you need to configure. This step is important (on security aspects), so make sure you understand what is happening. Feel free to spend some time reading the scripts and the official documentation.
 
-If you don't plan to make PyPI release, just delete `.scripts/release.sh` and `.github/workflows/pypi.yaml`.
+If you don't plan to make PyPI releases, just delete `.scripts/release.sh` and `.github/workflows/pypi.yaml`.
 
 <br>
 
